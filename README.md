@@ -1,2 +1,3 @@
 # pyinstxtractor-test-binaries
-Test binaries for PyInstaller Extarctor
+
+Test binaries for PyInstaller Extractor.
