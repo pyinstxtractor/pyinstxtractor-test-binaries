@@ -17,7 +17,7 @@ pyvers="2.7 3.5 3.6 3.7 3.8 3.9 3.10"
 for pyver in $pyvers
   do
     echo "==> Installing Python $pyver..."
-    micromamba create -n py$pyver -c conda-forge python=$pyver --yes --quiet
+    micromamba create -n py$pyver -c conda-forge python=$pyver --yes --quiet > /dev/null
   done
 
 echo "=== Beginning testing ==="
